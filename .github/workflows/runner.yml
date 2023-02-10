@@ -1,0 +1,11 @@
+name: runner
+
+on: workflow_dispatch
+
+jobs:
+  runner:
+    runs-on: macos-11
+    steps:
+      - name: runner
+        run: |
+          echo helloworld
